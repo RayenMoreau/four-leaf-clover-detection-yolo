@@ -1,0 +1,22 @@
+description: Ultralytics best model trained on /content/Hunting-for-four-leaf-clovers-1/data.yaml
+author: Ultralytics
+date: '2025-12-30T16:26:55.265459'
+version: 8.3.243
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: clover-3
+  1: clover-4
+args:
+  batch: 1
+  fraction: 1.0
+  half: false
+  int8: true
+  nms: false
+channels: 3
