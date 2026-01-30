@@ -39,7 +39,7 @@ The model performs reliably despite class imbalance and is suitable for real-wor
 ---
 
 ##  Dataset Structure
-
+```nohighlight
 dataset/
 ├── images/
 │   ├── train/
@@ -47,7 +47,7 @@ dataset/
 └── labels/
     ├── train/
     └── val/
-
+```
 ##  Deployment
 
 The trained YOLOv8 model was exported to **TensorFlow Lite (TFLite)** format for mobile deployment.  
